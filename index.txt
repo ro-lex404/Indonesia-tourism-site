@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesia Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Basic Guide</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section class="destinations">
+        <h1>Popular Destinations</h1>
+        <div class="destinations-grid">
+            <div class="destination-card" onclick="redirect('java.html')">
+                <img src="images/java.jpg" alt="Java">
+                <p>Java</p>
+            </div>
+            <div class="destination-card" onclick="redirect('bali.html')">
+                <img src="images/bali.jpg" alt="Bali">
+                <p>Bali</p>
+            </div>
+            <div class="destination-card" onclick="redirect('sumatra.html')">
+                <img src="images/sumatra.jpg" alt="Sumatra">
+                <p>Sumatra</p>
+            </div>
+            <!-- Add more destination cards as needed -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumatra - Indonesia Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Atraksi</a></li>
+                <li><a href="#">Inspirasi Seru</a></li>
+                <li><a href="#">Rencanakan Perjalanan</a></li>
+                <li><a href="#">Panduan Dasar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content Section -->
+    <section class="destination-detail">
+        <div class="image-container">
+            <img src="sumatra.jpg" alt="Sumatra Island">
+        </div>
+        <div class="text-content">
+            <h1>Experience Sumatra</h1>
+            <p>Sumatra is a land of natural wonders, from dense rainforests to volcanic landscapes. It's home to unique wildlife like the orangutans and rich cultural heritage. This island is perfect for those looking for adventure and eco-tourism experiences.</p>
+            <p>Explore the beauty of Lake Toba, trek through the jungles, and immerse yourself in the local cultures of the Batak and Minangkabau people. Sumatra is an unspoiled paradise waiting to be discovered.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
