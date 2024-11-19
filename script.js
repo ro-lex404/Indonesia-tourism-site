@@ -10,6 +10,7 @@ let index = 0; // Start at the first item
 const intervalTime = 3000; // 3 seconds
 
 function autoScroll() {
+    
     index++;
     if (index >= items.length) {
         index = 0; // Reset to the first item if we reach the end
